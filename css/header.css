@@ -1,0 +1,51 @@
+@import url(brand.css);
+
+header {
+    background-color: var(--colorazuloscuro);
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: auto;
+
+    & img {
+        width: auto;
+        height: 41px;
+    }
+}
+
+.menu nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+    & ul {
+        display: flex;
+        gap: 50px;
+
+        & li {
+            list-style: none;
+            color: white;
+
+            & a {
+                color: var(--colorblanco);
+                font-size: 1.25rem;
+                font-weight: 500;
+            }
+
+            & a:hover {
+                color: var(--colorazul);
+            }
+        }
+    }
+}

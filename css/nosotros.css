@@ -1,0 +1,19 @@
+@import url(styles.css);
+#portada {
+    background-image: url("../image/NOSOTROSFONDO.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+.portada_container {
+    height: 704px;
+}
+
+.texto_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    text-align: center;
+    margin: 400px auto;
+  }
