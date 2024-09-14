@@ -4,6 +4,7 @@
 @import url(blog.css);
 @import url(servicios.css);
 @import url(nosotros.css);
+@import url(todos.css);
 body {
     background-image: url("../image/F\ V.png");
 }
