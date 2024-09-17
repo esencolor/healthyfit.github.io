@@ -1,0 +1,35 @@
+@import url(styles.css);
+
+.portafolio_titulo h3 {
+    text-align: center;
+    color: var(--colorblanco);
+    padding-bottom: 10px;
+    position: center;
+}
+
+.portafolio {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    & h2 {
+        background-color: var(--colorfondo);
+        color: var(--colorblanco);
+        border-radius: 20px 0px;
+    }
+
+    & p {
+        align-items: start;
+        position: absolute;
+        width: 500px;
+        margin: 200px auto;
+    }
+
+    .portafolio_foto img {
+        width: auto;
+        height: 250px;
+        border-radius: 5px;
+    }
+
+}
